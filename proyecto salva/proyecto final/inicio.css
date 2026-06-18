@@ -1,0 +1,27 @@
+:root{
+    --fuente: sans-serif;
+    --color-texto: hsl(81, 97%, 64%);
+    --color-fondo: #82B58B;
+    --color-primario:  #24A663;    
+}
+body {
+    font-family: var(--fuente);
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    font-size: 16px;
+    line-height: 1.6;
+}
+header {
+    background-color: var(--color-primario);
+    color: rgb(75, 165, 131);
+    padding: 24px 32px;
+    text-align: center;
+}
+footer {
+    background-color: var(--color-texto);
+    
+     background: linear-gradient(to bottom right, #54c567, #55d35b, #64d348);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.875rem;
+}

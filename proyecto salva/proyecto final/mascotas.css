@@ -1,0 +1,13 @@
+:root{
+    --fuente: sans-serif;
+    --texto-color: rgb(189, 252, 73);
+      --color-fondo:#5FB07C;
+}
+footer {
+    background-color: var(--color-texto);
+    
+     background: linear-gradient(to bottom right, #54c567, #55d35b, #64d348);
+    text-align: center;
+    padding: 20px;
+    font-size: 0.875rem;
+}
