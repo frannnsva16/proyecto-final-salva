@@ -1,13 +1,35 @@
-:root{
+:root {
     --fuente: sans-serif;
-    --texto-color: rgb(189, 252, 73);
+    --color-texto: hsl(81, 97%, 64%);
+     --color-primario:  #24A663; 
     --color-fondo: #6BB281;
 }
+
+body {
+    font-family: var(--fuente);
+    color: var(--color-texto);
+    background-color: var(--color-fondo);
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+header {
+    background-color: var(--color-primario);
+    color: rgb(75, 165, 131);
+    padding: 24px 32px;
+    text-align: center;
+}
+
 footer {
     background-color: var(--color-texto);
-    
-     background: linear-gradient(to bottom right, #54c567, #55d35b, #64d348);
+
+    background: linear-gradient(to bottom right, #54c567, #55d35b, #64d348);
     text-align: center;
     padding: 20px;
     font-size: 0.875rem;
+}
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 24px;
 }

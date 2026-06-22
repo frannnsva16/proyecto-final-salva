@@ -25,3 +25,8 @@ footer {
     padding: 20px;
     font-size: 0.875rem;
 }
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 32px 24px;
+}
