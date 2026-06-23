@@ -3,6 +3,7 @@
     --color-texto: hsl(81, 97%, 64%);
      --color-primario:  #24A663; 
     --color-fondo: #6BB281;
+    --color-claro: rgb(77, 231, 128);
 }
 
 body {
@@ -19,7 +20,16 @@ header {
     padding: 24px 32px;
     text-align: center;
 }
-
+nav h1 {
+    color: rgb(53, 202, 98);
+    margin-bottom: 12px;
+}
+nav a {
+    color: var(--color-claro);
+    margin: 0 12px;
+    font-weight: bold;
+    padding: 4px 8px;
+}
 footer {
     background-color: var(--color-texto);
 
@@ -32,4 +42,13 @@ main {
     max-width: 800px;
     margin: 0 auto;
     padding: 32px 24px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    align-content: center;
+    gap: 10px;
+    height: 100%;
 }
